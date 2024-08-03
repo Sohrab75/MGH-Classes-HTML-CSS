@@ -1,0 +1,25 @@
+body, html, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.grid_system{
+    border:2px solid black;
+    margin:20px;
+    padding:20px;
+    display: flex;
+    /* justify-content:center; */
+    align-items: start;
+    justify-self: end;
+    height: 500px;
+    gap:10px;
+}
+.box{
+    background-color: #0049B7;
+    width: 100px;
+    height: 100px;
+    /* justify-self: stretch; */
+}

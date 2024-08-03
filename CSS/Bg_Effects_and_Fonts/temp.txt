@@ -1,0 +1,11 @@
+CSS- Internal /Inline/External
+Selector - tag Selector >>>>>> h1{
+        color:blue;
+    }
+    Id Selector  >>>> #first_div{
+        color:blue;
+    }
+    class Selector >>>> .box_one{
+        color:blue;
+    }
+    

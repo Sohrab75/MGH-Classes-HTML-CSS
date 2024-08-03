@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            background-color:#fff;
+        }
+        .top_menu{
+            width:100%;
+            height:300px;
+            display:flex;
+            /* border:1px solid black; */
+            flex-direction:column;
+        }
+        .top_menu >div{
+            background-color:gray;
+            height:100px;
+            margin:20px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .main_body{
+            width:100%;
+            height:500px;
+            display:flex;
+            justify-content:space-between;
+        }
+        .main_body >div{
+            width:30%;
+            height:100%;
+            background-color:gray;
+            margin:20px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .main_body .big_container{
+            width:50%;
+        }
+        .footer{
+            width:100%;
+            height:200px;
+            margin-top:50px;
+        }
+        .footer > div{
+            height:100%;
+            background-color:gray;
+            margin:20px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+    </style>
+</head>
+<body>
+    <section class="top_menu">
+        <div>Header</div>
+        <div>Nav Menu</div>
+    </section>
+    <section class="main_body">
+        <div>Content</div>
+        <div class="big_container">Main Content</div>
+        <div>Content</div>
+    </section>
+    <section class="footer">
+        <div>Footer</div>
+    </section>
+</body>
+</html>
