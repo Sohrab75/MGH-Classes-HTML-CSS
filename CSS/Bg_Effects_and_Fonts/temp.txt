@@ -8,4 +8,7 @@ Selector - tag Selector >>>>>> h1{
     class Selector >>>> .box_one{
         color:blue;
     }
+
+    Relative path- Local files
+    absolute path- hosted files / online content
     
