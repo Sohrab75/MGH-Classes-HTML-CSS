@@ -11,4 +11,7 @@ Selector - tag Selector >>>>>> h1{
 
     Relative path- Local files
     absolute path- hosted files / online content
+
+    DOM- Document object Model
+    BOM- Browser Object Model
     
