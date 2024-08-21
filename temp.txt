@@ -1,5 +1,5 @@
 CSS- Internal /Inline/External
-Selector - tag Selector >>>>>> h1{
+Selector - tag/type Selector >>>>>> h1{
         color:blue;
     }
     Id Selector  >>>> #first_div{
@@ -14,4 +14,6 @@ Selector - tag Selector >>>>>> h1{
 
     DOM- Document object Model
     BOM- Browser Object Model
+
+    We cant set height and width , padding-top, padding-bottom, margin-top, margin-bottom to an Inline elements
     

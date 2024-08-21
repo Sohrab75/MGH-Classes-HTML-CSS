@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.inline {
+  display: inline-block;
+  background-color: green;
+  padding-top: 20px;
+  margin-top: 20px;
+  height: 100px;
+  width: 200px;
+}
+.block {
+  background-color: blue;
+  padding-top: 20px;
+  margin-top: 20px;
+  height: 100px;
+  width: 200px;
+}
