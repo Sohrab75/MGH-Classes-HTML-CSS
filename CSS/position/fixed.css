@@ -1,0 +1,23 @@
+section{
+    position:relative;
+}
+.title{
+    background-color:blue;
+    padding:10px;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+.article{
+    margin-top:150px;
+    height:1200px;
+    background-color:red;
+    position:relative;
+}
+.sticky{
+    background-color:pink;
+    padding:10px;
+    position:sticky;
+    top:100px;
+}
