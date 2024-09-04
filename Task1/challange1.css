@@ -40,7 +40,19 @@ body {
 }
 .product-img{
     transition:all ease 0.5s;
+    border-radius: 50%;
+    animation: rotate 5s linear infinite;
 }
+@keyframes rotate {
+    0%{
+        transform: scale(0.5) rotate(0deg);
+
+    }
+    100%{
+        transform:scale(1.1) rotate(360deg);
+    }
+}
+
 .product-info{
     flex:1;
 }
