@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Example of Form</h2>
+    <form style="border: 1px dashed brown; padding: 10px; width: 30%;">
+        <div style="padding: 10px;">
+            <label>Enter User Name:-</label>
+            <input type="text" placeholder="UserName"/> 
+            <!-- type="text" it accept all type of input like text numeric and special charset -->
+        </div>
+        <div style="padding: 10px;">
+            <label>Enter User Email:-</label>
+            <input type="email" placeholder="enter email abc@domainname.com"/>
+            <!-- type="email" it only accept email -->
+        </div>
+        <div style="padding: 10px;">
+            <label>Enter User Password:-</label>
+            <input type="password" placeholder="Enter password"/>
+            <!-- type="password" it only accept alpha-numeric encrypt format password -->
+        </div>
+        <div style="padding: 10px;">
+            <label>Enter A Number:-</label>
+            <input type="number" placeholder="Enter Number"/>
+            <!-- type="password" it only accept Number -->
+        </div>
+        <div style="padding: 10px;">
+            <label>Enter your Phone Number:-</label>
+            <input type="tel" placeholder="Enter Phone Number"/>
+            <!-- type="tel" it only accept Phone Number -->
+        </div>
+    </form>
+</body>
+</html>

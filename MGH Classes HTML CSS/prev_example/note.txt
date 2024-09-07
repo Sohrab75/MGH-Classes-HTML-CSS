@@ -1,0 +1,36 @@
+
+
+
+
+CSS3-   types of CSS
+1. Internal CSS-  we write styles into head tag
+2. Inline CSS- we write our styles into tag itself 
+3. External CSS- External CSS file will be linked to html
+
+style- <tagname style="property:value;">
+Heading Tag-  h1, h2, h3, h4 ...h6.
+Header tag - header,
+Navigation tag- nav
+Image tag- img
+Paragraph tag- p 
+Division Tag - div, section
+List tag- ol, li, 
+
+Absolute URLs vs. Relative URLs
+Both examples above are using an absolute URL (a full web address) in the href attribute.
+
+A local link (a link to a page within the same website) is specified with a relative URL (without the "https://www" part):
+examples---
+<h2>Absolute URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+
+
+CSS- selector 
+tag- 
+id-
+class-
