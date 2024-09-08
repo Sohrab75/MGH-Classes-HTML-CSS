@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        body{
+            font-family: sans-serif;
+        }
+        .fruit-card{
+            width:300px;
+            margin: 0 auto;
+            border-radius:8px;
+            /* overflow: hidden; */
+            box-shadow: 0 0 32px rgba(0, 0, 0, 0.3);
+            position:relative;
+        }
+        .fruit-img{
+            width:100%;
+            /* new css property */
+            filter:opacity(1);
+            transition:all 3s;
+            animation: rotate 5s infinite linear;
+        }
+        /* @keyframes rotate{
+            from{
+                transform: rotate(0deg);
+                border-radius:20%;
+            }
+            to{
+                transform: rotate(360deg); 
+                border-radius:50%;
+            }
+        } */
+        /* .fruit-img:hover{
+            transform: scale(0.5);
+        } */
+        .fruit-price{
+            display:flex;
+            justify-content: space-between;
+            margin-bottom:20px;
+        }
+        .fruit-price p{
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .fruit-description{
+            padding:10px 20px;
+        }
+        a:link{
+            font-size: 12px;
+            color:white;
+            background-color:yellowgreen;
+            padding:8px 10px;
+            text-decoration: none;
+            border-radius:25px;
+        }
+        .icon{
+            font-size: 25px;
+            color: red;
+            position:absolute;
+            cursor: pointer;
+        }
+        .left-arr{
+            top:50%;
+            left:0;
+            transform: translate(-80%, -50%);
+        }
+        .right-arr{
+            top:50%;
+            right:0;
+            transform: translate(80%,-50%);
+        }
+        .overflow{
+            margin:0 auto;
+            width:200px;
+            height: 200px;
+            background-color: red;
+            overflow-y: scroll;
+            overflow-x: scroll;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Image New Property</h1>
+        <div class="fruit-card">
+            <img class="fruit-img" src="juan-jose-valencia-antia-TTrJMhrkoeY-unsplash.jpg" alt="fruit">
+            <div class="fruit-description">
+                <div class="fruit-price">
+                    <p>Lorem</p> <p>$5.20</p>
+                </div>
+                <a href="#">Buy Now</a>
+            </div>
+            <ion-icon class="icon left-arr" name="chevron-back-outline"></ion-icon>
+            <ion-icon class="icon right-arr" name="chevron-forward-outline"></ion-icon>
+        </div>
+    </section>
+    <section class="overflow">
+        <ul>
+            <li>hello World!</li>
+            <li>hello World!</li>
+            <li>hello World!</li>
+            <li>hello World!</li>
+            <li>hello World!</li>
+            <li>hello World!</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium odit aspernatur debitis, in minus atque, ad labore similique, libero unde repellat cum. Labore, pariatur id. Eos quaerat ab nam vitae necessitatibus, accusantium deleniti dolorum. Sunt odio velit tempora error labore fugiat atque facere tempore nulla consequatur! Eaque earum explicabo sed.</p>
+    </section>
+</body>
+</html>

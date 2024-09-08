@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns:repeat(2, 1fr);
+            /* grid-template-rows: 100px 200px; */
+            row-gap: 10px;
+            column-gap: 10px;
+            justify-items: center;
+            align-items: center;
+        }
+        .yellow{
+            background-color: yellow;
+            grid-column: span 2;
+        }
+        .green{
+            background-color: green;
+            grid-row: span 2;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .red{
+            background-color: red;
+        }
+        .orange{
+            background-color: orange;
+        }
+        .pink{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <section class="grid">
+        <div class="grid-box yellow">HTML</div>
+        <div class="grid-box green">CSS</div>
+        <div class="grid-box blue">JAVASCRIPT</div>
+        <div class="grid-box red">BOOTSTRAP</div>
+        <div class="grid-box orange">JAVA</div>
+        <div class="grid-box pink">PYTHON</div>
+    </section>
+</body>
+</html>
