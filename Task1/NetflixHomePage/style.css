@@ -50,6 +50,8 @@ body{
 .netflix-logo{
     width:15rem;
 }
+
+/* Hero section */
 .netflix-title{
     /* background-color:#555; */
     text-align:center;
@@ -94,7 +96,7 @@ body{
     padding: .8rem 2rem;
     background-color:red;
     color:#fff;
-    width:25%;
+    /* width:25%; */
     border:none;
 }
 .description{
@@ -171,13 +173,14 @@ body{
     gap:1.5rem;
 }
 .faq-list-item{
-    display:inline-block;
+    display:flex;
+    justify-content: space-between;
     padding:1.5rem 2rem;
     font-size:2.3rem;
     font-weight: 500;
     background-color:#555;
 }
-.icon{
-    width:2rem;
-    height:2rem;
+.faq-description{
+    font-size:2rem;
+    text-align: center;
 }
