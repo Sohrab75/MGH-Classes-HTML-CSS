@@ -5,13 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+      }
+      section{
+        position:relative;
+        width:500px;
+        margin:40px auto;
+        background-color:gray;
+      }
       .box_one {
         width: 300px;
         padding: 10px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
+        
       }
       .box_two {
-        border: 1px solid green;
+        /* border: 1px solid green; */
+      }
+      a{
+        position:absolute;
+        padding:5px 8px;
+        background-color:red;
+        text-decoration:none;
+        border-radius:8px;
+        top:50%;
+        right:0;
+        transform:translate(50%, -50%);
+      }
+      img{
+        filter:brightness(100%);
       }
     </style>
   </head>
@@ -19,12 +44,16 @@
     <section>
       <div class="box_one">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi psum
-        aut eaque ut?
+        aut eaque ut?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et,
+        asperiores.
       </div>
       <div class="box_two">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et,
         asperiores.
       </div>
+      <a href="#">Button</a>
+      
     </section>
+    <img src="./images/shoes.jpg" alt="">
   </body>
 </html>
