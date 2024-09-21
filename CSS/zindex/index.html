@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            max-width: 400px;
+            height: 400px;
+            background-color: rgba(0, 0, 0, 0.4);
+            position: relative;
+        }
+        .child-box{
+            position: absolute;
+            top: 10%;
+            left: 40%;
+            height: 200px;
+            background-color: red;
+            z-index: 2;
+        }
+        .child-box-two{
+            width: 250px;
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            background-color: yellow;
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="box">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <div class="child-box">
+                lets learn z-index-2
+            </div>
+            <div class="child-box-two">
+                lets learn z-index-3
+            </div>
+        </div>
+    </section>
+</body>
+</html>

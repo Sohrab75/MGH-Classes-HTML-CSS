@@ -10,6 +10,7 @@ body{
     line-height:1;
     font-weight:400;
     font-family: "Roboto", sans-serif;
+    background-color: #333;
 }
 
 /* ************************* */
@@ -183,4 +184,56 @@ body{
 .faq-description{
     font-size:2rem;
     text-align: center;
+}
+
+
+/* ************************* */
+/* Footer section styles */
+/* ************************* */
+
+.footer{
+    margin-top:1rem ;
+    color: #fff;
+    padding: 2rem 5.6rem;
+}
+.footer-top-heading{
+    font-size: 2.5rem;
+    font-weight:500;
+    text-align:center;
+    margin-bottom: 3rem;
+}
+.footer-div{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.footer-nav{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.footer-heading{
+    color:transparent;
+    font-size: 2rem;
+    font-weight:500;
+    background-image: linear-gradient(to top, green, yellow);
+    background-clip: text;
+}
+.footer-list{
+    display:flex;
+    flex-direction: column;
+    gap:1.2rem;
+    list-style: none;
+}
+.footer-list-item a:link,.footer-list-item a:visited{
+    font-size: 1.5rem;
+    font-weight:400;
+    color:#fff;
+    text-decoration: none;
+}
+.footer-list-item a:hover,.footer-list-item a:active{
+    font-size: 1.5rem;
+    font-weight:400;
+    color:#a33030;
+    text-decoration: none;
 }
