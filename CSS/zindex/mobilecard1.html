@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img-section{
+            width: 500px;
+            height: 500px;
+            border: 2px ridge yellowgreen;
+            display:flex;
+            align-items:center;
+            justify-content: center;
+            margin:0 auto;
+            position:relative;
+        }
+        .mobile-img{
+            height: 400px;
+        }
+        /* .img-box{
+            border: 2px ridge yellowgreen;
+        } */
+        .img-box::before{
+            content: " ";
+            width:300px;
+            height: 300px;
+            border-radius: 50%;
+            background-color: yellow;
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+            z-index: -2;
+        }
+        .img-box::after{
+            content: " ";
+            width:250px;
+            height: 250px;
+            border-radius: 50%;
+            background-color: rgb(122, 243, 9);
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <section class="img-section">
+        <div class="img-box">
+            <img class="mobile-img" src="./images/app-screen-2.png" alt="mobile-app-screen">
+        </div>
+    </section>
+</body>
+</html>
