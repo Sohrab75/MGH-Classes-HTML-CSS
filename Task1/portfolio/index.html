@@ -1,34 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="header">
-        <div class="header-logo">
-            <img src="./image/henry-be-Iicyia.jpg" alt="henry-be-Iicyia">
-            <p class="brand-name">Portfolio</p>
-        </div>
-        <nav class="navigation">
-            <a href="#">Projects</a>
-            <a href="#">Language</a>
-            <a href="#">Works</a>
-        </nav>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sohrab's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <header class="header">
+      <div class="header-logo">
+        <img src="./image/henry-be-Iicyia.jpg" alt="henry-be-Iicyia" />
+        <p class="brand-name">Portfolio</p>
+      </div>
+      <nav class="navigation">
+        <a href="#">Projects</a>
+        <a href="#">Language</a>
+        <a href="#">Works</a>
+      </nav>
+    </header> -->
     <main>
+        <aside class="side-img">
+            <img
+            class="portfolio-img"
+            src="./image/uifaces-popular-image.jpg"
+            alt="portfolio"
+            />
+        </aside>
         <section class="main">
-            <aside class="side-img">
-                <img class="portfolio-img" src="./image/portfolio pic.webp" alt="portfolio">
-            </aside>
-            <div>Name</div>
-            <div>Projects</div>
-            <div>Language</div>
-            <div>Works</div>
-        </section>
+        <div class="main-heading">
+          <h1 class="name">Sohrab Ansari</h1>
+          <h2 class="title">Web Developer and Designer</h2>
+          <button class="download"><ion-icon name="download-outline"></ion-icon> Download Resume</button>
+        </div>
+        <div class="main-projects">
+            <h3>Projects</h3>
+            <div class="projects">
+                <img class="project-img img-1" src="https://picsum.photos/id/237/200/300" alt="henry-be-Iicyia">
+                <img class="project-img img-2" src="https://picsum.photos/id/238/200/300" alt="johannes-andersson">
+                <img class="project-img img-3" src="https://picsum.photos/id/239/200/300" alt="mourad-saadi">
+                <img class="project-img img-4" src="https://picsum.photos/id/240/200/300" alt="urban-vintage">
+                <img class="project-img img-5" src="https://picsum.photos/id/213/200/300" alt="henry-be-Iicyia">
+                <img class="project-img img-6" src="https://picsum.photos/id/215/200/300" alt="johannes-andersson">
+                <!-- <img class="project-img img-7" src="https://picsum.photos/id/216/200/300" alt="mourad-saadi"> -->
+            </div>
+        </div>
+        <div class="about">
+            <h3>About</h3>
+            <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <!-- skill section -->
+
+        <div class="skills">
+            <h3>My Skills</h3>
+            <div class="progress">
+                <h5>HTML5</h5>
+                <div class="progress-bg">
+                <div class="progress-front">95%</div>
+                </div>
+            </div>
+            <div class="progress">
+                <h5>CSS3</h5>
+                <div class="progress-bg">
+                <div class="progress-front w-85">85%</div>
+                </div>
+            </div>
+            <div class="progress">
+                <h5>JAVASCRIPT</h5>
+                <div class="progress-bg">
+                <div class="progress-front w-75">75%</div>
+                </div>
+            </div>
+            <div class="progress">
+                <h5>REACTJS</h5>
+                <div class="progress-bg">
+                <div class="progress-front w-65">65%</div>
+                </div>
+            </div>
+            <div class="client">
+                <div class="client-box">
+                    <p>14+</p>
+                    <p>Partners</p>
+                </div>
+                <div class="client-box">
+                    <p>55+</p>
+                    <p>Projects Done</p>
+                </div>
+                <div class="client-box">
+                    <p>89+</p>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="client-box">
+                    <p>159+</p>
+                    <p>Meetings</p>
+                </div>
+            </div>
+        </div>
+        <div class="reputation">
+            <h3>My Reputation</h3>
+            <div class="reputation-box">
+                <div class="client-img">
+                    <img src="./image/profile-pic-1.jpg" alt="profile-pic-1">
+                </div>
+                <div class="client-text">
+                    <h5>Mr. Joe</h5>
+                    <h6>CEO at Company</h6>
+                    <p>Jane Doe is just awesome. I am so happy to have met him!</p>
+                </div>
+            </div>
+            <div class="reputation-box">
+                <div class="client-img">
+                    <img src="./image/profile-pic-2.jpg" alt="profile-pic-2">
+                </div>
+                <div class="client-text">
+                    <h5>Mr. Joe</h5>
+                    <h6>CEO at Company</h6>
+                    <p>Jane Doe is just awesome. I am so happy to have met him!</p>
+                </div>
+            </div>
+            <div class="reputation-box">
+                <div class="client-img">
+                    <img src="./image/profile-pic-3.jpg" alt="profile-pic-3">
+                </div>
+                <div class="client-text">
+                    <h5>Mr. Joe</h5>
+                    <h6>CEO at Company</h6>
+                    <p>Jane Doe is just awesome. I am so happy to have met him!</p>
+                </div>
+            </div>
+            <div class="reputation-box">
+                <div class="client-img">
+                    <img src="./image/profile-pic-4.jpg" alt="profile-pic-4">
+                </div>
+                <div class="client-text">
+                    <h5>Mr. Joe</h5>
+                    <h6>CEO at Company</h6>
+                    <p>Jane Doe is just awesome. I am so happy to have met him!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- price -->
+        <div class="price-section">
+            <h3>My Price</h3>
+            <div class="wrapper">
+
+                <div class="card">
+                    <span>Basic</span>
+                    <ul class="list basic-plan">
+                        <li>Web Design</li>
+                        <li>Photography</li>
+                        <li>5GB Storage</li>
+                    <li>Mail Support</li>
+                    <li class="price">
+                        <span>$10</span>
+                        <span>per month</span>
+                    </li>
+                </ul>
+                <button>sign up</button>
+            </div>
+            <div class="card">
+                <span>Basic</span>
+                <ul class="list basic-plan">
+                    <li>Web Design</li>
+                    <li>Photography</li>
+                    <li>5GB Storage</li>
+                    <li>Mail Support</li>
+                    <li class="price">
+                        <span>$10</span>
+                        <span>per month</span>
+                    </li>
+                </ul>
+                <button>sign up</button>
+            </div>
+        </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
-</body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
 </html>
