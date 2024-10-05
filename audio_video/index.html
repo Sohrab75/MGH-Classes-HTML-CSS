@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">How to use audio in our application</h1>
+    <audio controls>
+        <source src="audio_clips_nature.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <!-- Starts playing the audio automatically once it’s loaded. (Note: Most modern browsers restrict autoplaying media unless muted or triggered by user interaction.) -->
+    <audio controls autoplay>
+        <source src="audio_clips_nature.mp3" type="audio/mpeg">
+      </audio>
+      <!-- Mutes the audio by default when it is loaded. -->
+      <audio controls muted>
+        <source src="audio_clips_nature.mp3" type="audio/mpeg">
+      </audio>
+      <!-- Loops the audio when it reaches the end, restarting automatically. -->
+      <audio controls loop>
+        <source src="audio_clips_nature.mp3" type="audio/mpeg">
+      </audio>
+
+      <h1 style="text-align: center;">How to use video in our application</h1>
+      <video controls>
+        <source src="nature_video_clicps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <video controls src="nature_video_clicps.mp4"></video>
+
+      <!-- Specifies an image to be shown while the video is downloading or until the user hits play. -->
+      <video controls poster="pic_trulli.jpg">
+        <source src="nature_video_clicps.mp4" type="video/mp4">
+      </video>
+      
+      <video controls preload="metadata">
+        <source src="nature_video_clicps.mp4" type="video/mp4">
+      </video>
+      <!-- Specifies the width and height of the video player. -->
+      <video controls width="640" height="360">
+        <source src="nature_video_clicps.mp4" type="video/mp4">
+      </video>
+      
+      
+</body>
+</html>

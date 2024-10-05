@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* default universal setting */
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        /* default setting */
+        body{
+            font-family: sans-serif;
+            line-height: 1;
+            font-weight: 400;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .get-in-touch{
+            width:600px;
+            height: 500px;
+            border:5px ridge brown;
+        }
+        .address{
+            padding:10px 20px;
+            display:flex;
+            flex-direction:column;
+            gap:15px;
+        }
+        .address-item{
+            display:flex;
+            align-items:center;
+            gap:10px;
+        }
+        .my-price{
+            margin-top:40px;
+            width:600px;
+            height: 500px;
+            border:5px ridge blue;
+        }
+        .my-price h1{
+            color:#7048e8;
+            font-size:32px;
+            font-weight:600;
+        }
+        .wrapper{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            margin-top:40px;
+        }
+        .card{
+            background-color:#d0bfff;
+            text-align:center;
+            flex-basis:45%;
+            border-radius:8px;
+            overflow:hidden;
+            box-shadow:0 0 32px rgba(0, 0, 0, 0.12);
+        }
+        .card:hover{
+            box-shadow:2px 4px 32px rgba(0, 0, 0, 0.32);
+        }
+
+        .card h2{
+            font-size:36px;
+            padding:18px 0;
+            background-color:#5f3dc4;
+            font-weight:600;
+            color:#f3f0ff;
+        }
+        .card-list{
+            list-style:none;
+        }
+        .card-list-item{
+            font-size:20px;
+            padding:15px 0;
+            color:#5f3dc4;
+            display:flex;
+            gap:10px;
+            justify-content:center;
+        }
+        .card-btn{
+            margin:15px 0;
+            font-size:22px;
+            font-weight:500;
+            color:#5f3dc4;
+            background-color:#fff;
+            padding:10px 20px;
+            border:none;
+            border-radius:25px;
+            cursor:pointer;
+            transition:all 0.5s ease-in-out;
+        }
+        .card-btn:hover{
+            color:#fff;
+            background-color:#5f3dc4;
+        }
+    </style>
+</head>
+<body>
+    <!-- contact info section -->
+    <!-- <section class="get-in-touch">
+        <div class="address">
+            <p class="address-item"> 
+                <ion-icon name="location-outline"></ion-icon>
+                <span>Location: Cicago</span>
+            </p>
+            <p class="address-item">
+                <ion-icon name="call-outline"></ion-icon>
+                <span>Phone:+91-1234567890</span>
+                
+            </p>
+            <p class="address-item">
+                <ion-icon name="mail-outline"></ion-icon>
+                <span>Email:abcd@email.com</span> 
+            </p>
+        </div>
+        <div>
+            <iframe src="https://maps.google.com/maps?q=cicago&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width="582" height="200" frameborder="0"></iframe>
+            <iframe src="https://ansari-cinemate-app.netlify.app/" width="582" height="150" scrolling="no" frameborder="0"></iframe>
+        </div>
+    </section> -->
+ <!-- Price section -->
+
+    <section class="my-price">
+        <h1>My Price</h1>
+        <div class="wrapper">
+            <div class="card">
+                <h2>Basic</h2>
+                <ul class="card-list">
+                    <li class="card-list-item"><ion-icon class="icon" name="earth-outline"></ion-icon> <span>Web Design </span></li>
+                    <li class="card-list-item"><ion-icon class="icon" name="aperture-outline"></ion-icon><span>Photography</span> </li> 
+                    <li class="card-list-item"> <ion-icon class="icon" name="cloud-outline"></ion-icon><span>5GB Storage</span> </li> 
+                    <li class="card-list-item"><ion-icon class="icon" name="mail-outline"></ion-icon><span>Mail Support</span> </li> 
+                    <li class="card-list-item"><ion-icon class="icon" name="cash-outline"></ion-icon><span> $10 per month</span></li>
+                </ul>
+                <button class="card-btn">Sign Up</button>
+            </div>
+            <div class="card">
+                <h2>Advance</h2>
+                <ul class="card-list">
+                    <li class="card-list-item"><ion-icon class="icon" name="earth-outline"></ion-icon> <span>Web Design </span></li>
+                    <li class="card-list-item"><ion-icon class="icon" name="aperture-outline"></ion-icon><span>Photography</span> </li> 
+                    <li class="card-list-item"> <ion-icon class="icon" name="cloud-outline"></ion-icon><span>10GB Storage</span> </li> 
+                    <li class="card-list-item"><ion-icon class="icon" name="mail-outline"></ion-icon><span>Mail Support</span> </li> 
+                    <li class="card-list-item"><ion-icon class="icon" name="cash-outline"></ion-icon><span> $15 per month</span></li>
+                </ul>
+                <button class="card-btn">Sign Up</button>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
