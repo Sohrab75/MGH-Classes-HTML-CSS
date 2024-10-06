@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Learn about Audio tag</h1>
+    <audio controls>
+        <source src="audio_clips_nature.mp3" type="audio/mpeg"/>
+        <source src="audio_clips_nature.mp3" type="audio/mpeg"/>
+        your browser doesn't support audio element
+    </audio>
+
+    <!-- it will start auto when browser reload -->
+    <h1>Audio tag with autoplay</h1>
+    <audio controls autoplay>
+        <source src="audio_clips_nature.mp3" type="audio/mpeg"/>
+        your browser doesn't support audio element
+    </audio>
+
+    <!-- it will be muted by default  -->
+    <h1>Audio tag with muted</h1>
+    <audio controls muted>
+        <source src="audio_clips_nature.mp3" type="audio/mpeg"/>
+        your browser doesn't support audio element
+    </audio>
+
+     <!-- it will be restart after completing  -->
+     <h1>Audio tag with loop</h1>
+     <audio controls loop>
+         <source src="audio_clips_nature.mp3" type="audio/mpeg"/>
+         your browser doesn't support audio element
+     </audio>
+</body>
+</html>

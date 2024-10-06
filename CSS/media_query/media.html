@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        /* default setting */
+        body{
+            font-family: sans-serif;
+            line-height: 1;
+            font-weight: 400;
+        }
+        img{
+            width:100%;
+        }
+        .card-section{
+            display:grid;
+            grid-template-columns:1fr 1fr 1fr 1fr;
+            gap:20px;
+        }
+        .card{
+            border:1px solid black;
+            box-shadow:0 0 32px rgba(0,0,0, 0.25);
+            color:#000;
+            
+        }
+        .title{
+            margin:15px 0;
+            font-size:20px;
+            font-weight:500;
+        }
+        .price{
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+        }
+        button{
+            margin:15px 0;
+            font-size:22px;
+            font-weight:500;
+            color:#5f3dc4;
+            background-color:#fff;
+            padding:10px 20px;
+            border:none;
+            border-radius:25px;
+            cursor:pointer;
+            transition:all 0.5s ease-in-out;
+        }
+        /* responsive media queries */
+        
+        /* @media (max-width:1200px) and (min-width:800px){
+            .card-section{
+                grid-template-columns:1fr 1fr 1fr;
+            }
+            
+        } */
+        @media (max-width:700px){
+            .card-section{
+                grid-template-columns:1fr 1fr;
+            }
+            
+        }
+        @media (max-width:450px){
+            .card-section{
+                grid-template-columns:1fr;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <section class="card-section">
+        <div class="card">
+            <img src="pic_trulli.jpg" alt="pic-truli">
+            <p class="title">Art Image</p>
+            <div class="price">
+                <p>$120.00</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="pic_trulli.jpg" alt="pic-truli">
+            <p class="title">Art Image</p>
+            <div class="price">
+                <p>$120.00</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="pic_trulli.jpg" alt="pic-truli">
+            <p class="title">Art Image</p>
+            <div class="price">
+                <p>$120.00</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="pic_trulli.jpg" alt="pic-truli">
+            <p class="title">Art Image</p>
+            <div class="price">
+                <p>$120.00</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
